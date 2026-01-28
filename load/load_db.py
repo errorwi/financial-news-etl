@@ -4,7 +4,7 @@ def load_to_db(df):
     conn=mysql.connector.connect(
         host="localhost",
         user="root",
-        password="0range69",
+        password="password",
         database="financial_news"
     )
     cursor=conn.cursor()
